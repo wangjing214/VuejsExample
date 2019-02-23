@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>组件+数组语法+绑定class</title>
+<title>v-if条件渲染指定</h5></title>
 <style>
     .haha{color:red;}
     .hehe{font-size: 100px}
@@ -10,7 +10,6 @@
 <body>
 <ul>
     <div id='app'>
-    <li><h5>v-if条件渲染指定</h5></li>
     <ul>
         <li>
             <h5>key属性的存在，使得input元素不会被利用</h5>
@@ -39,9 +38,6 @@
                 }
             }
         })
-        Vue.component('my-component', {
-            template: '<p class="article">一此文本</p>'
-        });
     </script>
 </body>
 </html>
